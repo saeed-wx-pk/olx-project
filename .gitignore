@@ -2,6 +2,9 @@
 
 # dependencies
 /node_modules
+/assets
+/src/olx-logo.png
+/src/images
 /.pnp
 .pnp.js
 
