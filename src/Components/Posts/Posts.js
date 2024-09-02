@@ -80,7 +80,7 @@ function Posts() {
         </div>
         <div className="cards">
           {
-            products.map((product)=>{
+            products.map((product)=>(
                 <div className="card"  onClick={()=>{
                     setPostDetails(product)
                     navigate('/view')
@@ -100,7 +100,7 @@ function Posts() {
                     <span>{product.createdAt}</span>
                   </div>
                 </div>
-            })
+            ))
           }
           
         </div>
