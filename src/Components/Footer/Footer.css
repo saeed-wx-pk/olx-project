@@ -1,27 +1,82 @@
-.footerParentDiv {
-  width: 100%;
-}
-.footerParentDiv .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ebeeef;
-  padding: 16px;
-}
-.footerParentDiv .content .heading {
-  font-size: 24px;
-  font-weight: bolder;
+.footer {
+  background-color: #dfdfdf;
+  color:  #222;
+  text-align: center;
 }
 
-.footerParentDiv .footer {
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background: #002f34;
-  color: whitesmoke;
 }
 
-.footerParentDiv .footer p {
+.footer-info {
+  margin: 20px 0;
+  
+  width: 50%;
+}
+
+.footer-info h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-info a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  margin: 20px 0;
+  width: 50%;
+}
+
+.footer-social h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-social ul {
+  list-style: none;
+  padding: 0;
   margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social li {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+.fa {
+  font-size: 24px;
+  margin-right: 10px;
+}.footer-info p{
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.github-link-svg{
+  margin-left: 10px ;
+  margin-top: 10px;
+}
+.github-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
